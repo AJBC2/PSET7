@@ -1,0 +1,55 @@
+0.  BMP: Over 4 billion (color is supported by the first 24 bits, the other 
+eight are translucency). JPEG: 16 million. PNG: 16 million. GIF: 256 colors.
+
+1.  GIF
+
+2.  Lossless compression will retain all "information" through the 
+compressed and uncompressed states. Lossy compression will eliminate certain
+information when it is compressed (redundnat ones). So when its uncompressed,
+information will be lost (but the user may not notice).
+
+3.  JPEG
+
+4.  When the file is deleted, so is the information in the access table. But the
+file remains on the hardrive. In other words, its like crossing out the name of 
+a chapter in the index of a book, but the chapter still exists within the book.
+
+5.  Using secure delete options which replaces the disk section with zeroes.
+
+6.  This header defines a set of specified integral type aliases with certain
+width requirements, along with macros specifying their limits and macro 
+functions to create values of these types.
+
+7.  Clarifies how we specifically intend to use data. uint24_t means that it's 
+24 bits wide.
+
+8.  BYTE: 1 byte
+DWORD:4 bytes
+LONG: 4 bytes
+WORD: 2 bytes
+
+9.  First 2 bytes is WORD which has to do with bfType. It must be set to the 
+signature word BM (0x4D42) to indicate it is a bitmap.
+
+10. bfSize = size of the bitmap file in bytes
+biSize= size of the structure in bytes.
+
+11. The bitmap is a top-down device-independent bitmap, it's origins is in the 
+upper left corner.
+
+12. The biBitCount (dtermines the number of bits that define each pixel and the
+maximum number of colors in the bitmap).
+
+13. Because it cannot create the outfile to write to.
+
+14. The program reads 1 RGB triple at a time.
+
+15. 3 bytes so the end product is 12 bytes. If the bi.bWidth is 3 pixels, there
+are 9 bytes. So +3 bytes to make it a multiple of 4.
+
+16. Skips padding and looks for the next pixel.
+
+17. Integer constant which specifies that the provided offset is relative to the
+current file position.
+
+18. Rick Astley
