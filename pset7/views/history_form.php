@@ -1,12 +1,12 @@
 <table class="table table-striped">
-
+<body style="background-color: #F5F5F5">
 <thead>
     <tr>
-        <th>Transaction</th>
-        <th>Date/Time</th>
-        <th>Symbol</th>
-        <th>Shares</th>
-        <th>Price</th>
+        <th style= "color: salmon; font-family: Bell MT"><h2>Transaction</h2></th>
+        <th style= "color: salmon; font-family: Bell MT"><h2>Date/Time</h2></th>
+        <th style= "color: salmon; font-family: Bell MT"><h2>Symbol</h2></th>
+        <th style= "color: salmon; font-family: Bell MT"><h2>Shares</h2></th>
+        <th style= "color: salmon; font-family: Bell MT"><h2>Price</h2></th>
     </tr>
 </thead>
     
@@ -28,3 +28,5 @@
 </tbody>
 
 </table>
+
+<img src= "http://www.childrenandyouth.co.uk/wp-content/uploads/2015/03/Make-Good-Choices.png" style = "width: 700x; height: 200px"/>
