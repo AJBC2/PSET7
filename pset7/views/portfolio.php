@@ -2,11 +2,11 @@
 
 <thead>
     <tr>
-        <th style= "color: cornflowerblue; font-family: Bell MT">Symbol</th>
-        <th style= "color: cornflowerblue; font-family: Bell MT">Shares</th>
-        <th style= "color: cornflowerblue; font-family: Bell MT">Price</th>
-        <th style= "color: cornflowerblue; font-family: Bell MT">Name</th>
-        <th style= "color: cornflowerblue; font-family: Bell MT">TOTAL</th>
+        <th style= "color: cornflowerblue; font-family: Bell MT"><h2>Symbol</h2></th>
+        <th style= "color: cornflowerblue; font-family: Bell MT"><h2>Shares</h2></th>
+        <th style= "color: cornflowerblue; font-family: Bell MT"><h2>Price</h2></th>
+        <th style= "color: cornflowerblue; font-family: Bell MT"><h2>Name</h2></th>
+        <th style= "color: cornflowerblue; font-family: Bell MT"><h2>TOTAL</h2></th>
     </tr>
 </thead>
 
