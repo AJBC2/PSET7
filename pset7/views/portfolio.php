@@ -26,9 +26,7 @@
 
     ?>
 </tbody>
-<div>
-    Do you want to change your password? Click <a href="prechange.php">here</a>.
-</div>
+
 <div>
     <?php
     $balance = CS50::query("SELECT cash FROM users WHERE id = ?", $_SESSION["id"]);
