@@ -1,5 +1,6 @@
 <form action="buydirect.php" method="post">
     <fieldset>
+    <body style="background-color: #FFFFF0">
        <div class="form-group">
                 <input class="form-control" name="shares" placeholder="Shares" type="code"/>
         </div>
