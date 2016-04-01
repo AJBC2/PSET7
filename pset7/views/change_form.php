@@ -1,5 +1,6 @@
 <form action="change.php" method="post">
     <fieldset>
+        <body style="background-color: #F8F8FF">
         <div class="form-group">
             <input class="form-control" name="newpass" placeholder="New Password" type="password"/>
         </div>
