@@ -1,6 +1,6 @@
 <form action="buy.php" method="post"> 
 <fieldset>
-
+<body style="background-color: #FFFFF0">
     <div class="form-group">
                 <input class="form-control" name="symbol" placeholder="Symbol" type="code"/>
     </div>
@@ -15,6 +15,6 @@
             Submit
         </button>
     </div>
-
+<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe68eid59ynXv-kiliCeEYOF5KslDHOdsrm7B5pEmeKBCBWYF4" style = "width: 700x; height: 200px"/>
 </fieldset>
 </form>
