@@ -2,14 +2,16 @@
 
 <thead>
     <tr>
-        <th>Symbol</th>
-        <th>Shares</th>
-        <th>Price</th>
-        <th>Name</th>
-        <th>TOTAL</th>
+        <th style= "color: dark blue; font-family: Bell MT">Symbol</th>
+        <th style= "color: dark blue; font-family: Bell MT">Shares</th>
+        <th style= "color: dark blue; font-family: Bell MT">Price</th>
+        <th style= "color: dark blue; font-family: Bell MT">Name</th>
+        <th style= "color: dark blue; font-family: Bell MT">TOTAL</th>
     </tr>
 </thead>
-    
+
+    <body style="background-color: #F8F8FF">
+        
 <tbody>
     <?php
 
@@ -31,7 +33,7 @@
     <?php
     $balance = CS50::query("SELECT cash FROM users WHERE id = ?", $_SESSION["id"]);
     ?>
-    <h3>Your balance is: $<?= $balance[0]["cash"] ?></h3>
+    <h4 style = "color: dark blue; font-family: Bookman Old Style">Your balance is: $<?= $balance[0]["cash"] ?></h4>
 </div>
 
 </table>
